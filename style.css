@@ -79,6 +79,7 @@ ul.menu{
 }
 
 .results{
+  display: flex;
   padding-left: 150px;
   padding-top: 50px;
 }
@@ -89,6 +90,8 @@ input.textresult{
   border: none;
   font-weight: bold;
   font-style: italic;
+  flex: 1 0 auto;
+  ;
 }
 
 input.textresult:focus{
